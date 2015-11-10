@@ -15,6 +15,9 @@ public class Github {
 		int num2;
 		int soma;
 		
+		System.out.print("Digite o seu nome: ");
+		nome = entrada.next();
+		
 		System.out.print("Digite um número: ");
 		num1 = entrada.nextInt();
 		
@@ -23,7 +26,7 @@ public class Github {
 		
 		soma = num1 + num2;
 		
-		System.out.println("Resultado: " +soma);
+		System.out.println(nome+ ", O Resultado é: " +soma);
 		
 		
 		
